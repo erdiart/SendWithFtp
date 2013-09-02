@@ -19,23 +19,22 @@
 ]>
 <resources>
   <string name="app_name">&app_name;</string>
-  <string name="error_accessing_gplay">Error while accessing Google Play</string>
-  <string name="ftp_uri_malformed">Malformed URI</string>
-  <string name="ftp_success">Upload to %1$s successful</string>
-  <string name="ftp_failure">Failure while uploading to %1$s: %2$s</string>
-  <string name="ftp_socket_exception">Socket exception while uploading to %1$s</string>
-  <string name="ftp_io_exception">IO exception while uploading to %1$s</string>
-  <string name="ftp_login_failure">Login failure while trying to upload to %1$s</string>
-  <string name="ftp_setFileType_failure">Could not set file type to ASCII while trying to upload
-      to %1$s</string>
-  <string name="ftp_changeWorkingDirectory_failure">Could not change working directory while trying
-      to upload to %1$s</string>
-  <string name="ftp_uploading_wait">FTP Transfer to %1$s. Please wait &#8230;</string>
-  <string name="ftp_connection_refused">Connection to %1$s refused</string>
-  <string name="ftp_connection_failure">Connection to %1$s failed</string>
-  <string name="ftp_cancelled">FTP Transfer to %1$s cancelled</string>
-  <string name="ftp_fileExists_failure">File already exists at target</string>
-  <string name="help_intro">When you launch <i>&app_name;</i> through its app icon, you manage a list of
+  <string name="error_accessing_gplay">Błąd w połączeniu z Google Play</string>
+  <string name="ftp_uri_malformed">Zły format danych połaczenia</string>
+  <string name="ftp_success">Porawnie wysłano do %1$s</string>
+  <string name="ftp_failure">Błąd w wysylaniu do %1$s: %2$s</string>
+  <string name="ftp_socket_exception">Wyjątek Socket podczas wysylania do %1$s</string>
+  <string name="ftp_io_exception">Wyjatek IO podczas wysylania do %1$s</string>
+  <string name="ftp_login_failure">Błąd logowania podczas próby wysylania do %1$s</string>
+  <string name="ftp_setFileType_failure">Nie można ustawić trybu ASCII podczas wysyłania
+      do %1$s</string>
+  <string name="ftp_changeWorkingDirectory_failure">Nie można zmienic katalogu roboczego podczas wysylania do %1$s</string>
+  <string name="ftp_uploading_wait">Wysyłanie FTP do %1$s. Prosze czekać ... &#8230;</string>
+  <string name="ftp_connection_refused">Odżucone polaczenie do %1$s </string>
+  <string name="ftp_connection_failure">Błąd w połączeniu do %1$s </string>
+  <string name="ftp_cancelled">Przerwane wysyłanie FTP do %1$s </string>
+  <string name="ftp_fileExists_failure">Taki plik juz istnieje na serwerze FTP</string>
+  <string name="help_intro">Po właczeniu <i>&app_name;</i> wybierz lub utwórz nowe polaczenie z listy 
     FTP(s) URIs.\n
     - <b>Add</b> : Simply enter an URI (ftp or ftps) into the text field at the bottom of the screen.\n
     The following actions can be called upon each URI through its context menu:\n
@@ -47,25 +46,25 @@
     for sharing content. Before selecting a target (by clicking on its entry in the list), you can still add, edit, delete entries,
     as explained above.
   </string>
-  <string name="help_heading_whats_new">What\'s new</string>
+  <string name="help_heading_whats_new">Co nowego</string>
   <string name="help_heading_license">License</string>
   <string name="help_heading_usage">Usage</string>
   <string name="help_whats_new">&#160;- Explicit ftps.</string>
-  <string name="button_add">Add</string>
-  <string name="button_change">Change</string>
+  <string name="button_add">Dodaj</string>
+  <string name="button_change">Zmien</string>
   <string name="button_website">Website</string>
-  <string name="menu_delete">Delete</string>
+  <string name="menu_delete">Skasuj</string>
   <string name="menu_edit">Edit</string>
   <string name="menu_help">Help</string>
   <string name="menu_info">Info</string>
-  <string name="menu_pick">Pick a file for upload</string>
-  <string name="new_version">New version</string>
-  <string name="no_uris">No URIs defined.</string>
-  <string name="no_app_handling_pick_available">No app for picking files available. Install <i>OI File Manager</i> from Google Play?</string>
-  <string name="select_ftp_target">Select an FTP target for the upload</string>
-  <string name="manage_ftp_targets">Manage your FTP targets</string>
+  <string name="menu_pick">Wybierz plik do wysłania</string>
+  <string name="new_version">Nowa wersja</string>
+  <string name="no_uris">Nie zdefionowany URIs.</string>
+  <string name="no_app_handling_pick_available">Potrzebna darmowa aplikacja do wyboru plikow. Zainstaluj <i>OI File Manager</i> z Google Play?</string>
+  <string name="select_ftp_target">Wybierz serwer FTP do przeslania pliku</string>
+  <string name="manage_ftp_targets">Zażądzanie serwerami FTP </string>
   <!-- strings below this comment do not need translations -->
-  <string name="help_enjoy"><u>Enjoy!</u></string>
+  <string name="help_enjoy"><u>Powodzenia!</u></string>
   <string name="help_licence_gpl">GNU General Public License version 3
     \nhttp://www.gnu.org/licenses/gpl.html .</string>
 </resources>
